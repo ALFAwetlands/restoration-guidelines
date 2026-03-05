@@ -1,0 +1,54 @@
+# SITE SETTINGS
+title: European Wetland Restoration
+author: ALFAwetlands
+
+# SOCIAL PROFILES
+social:
+  bluesky: https://bsky.app/profile/alfawetlands.bsky.social
+  facebook: https://www.facebook.com/ALFAwetlands  
+  linkedin: https://www.linkedin.com/company/alfawetlands/
+  youtube: https://www.youtube.com/channel/UCI8_mIMGWlQ-YQi1hsHEbTg
+  zenodo: https://zenodo.org/communities/alfawetlands/records?q=&l=list&p=1&s=10&sort=newest
+
+# THEME SETTINGS
+theme: minima
+remote_theme: peterdesmet/petridish@3.1
+github_edit: gh-pages
+colors:
+  links: "#0F71B8"  # Blue
+  banner: "#F5FCE2" # Lighter green
+  footer: "#F5FCE2" # Lighter green
+  background: "#F5FCE2" # Lighter green
+font_serif: false
+rounded_corners: true
+logo: /assets/images/ ALFAWetlands_Logo_Transparent.png
+
+# BUILD SETTINGS
+repository: ALFAwetlands/peatland-restoration
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+
+# FRONTMATTER DEFAULTS
+defaults:
+  - scope:
+      path: pages/nl
+    values:
+      lang: nl
+      permalink: /:basename/
+      background:
+        img: /assets/backgrounds/default.jpg
+        by: Yves Adams, VILDA
+  - scope:
+      path: pages/en
+    values:
+      lang: en
+      permalink: /en/:basename/
+      background:
+        img: /assets/backgrounds/default.jpg
+        by: Yves Adams, VILDA

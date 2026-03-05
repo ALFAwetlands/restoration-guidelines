@@ -1,0 +1,10 @@
+# Links listed below will be included in your site's navbar (navigation at the top)
+
+- text: Home # Note that users can also reach the homepage by clicking the site's title on the left in the navbar
+  href: /
+- text: Peatlands in the EU
+  href: /Peatlands in the EU/
+- text: Restoration Guidelines
+  href: /Restoration Guidelines/
+- text: Best practices
+  href: /Best practices/

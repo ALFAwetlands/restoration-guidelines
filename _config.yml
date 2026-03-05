@@ -12,7 +12,7 @@ social:
   zenodo: https://zenodo.org/communities/alfawetlands/records?q=&l=list&p=1&s=10&sort=newest
 
 # THEME SETTINGS
-theme: minima
+theme: minimal
 remote_theme: peterdesmet/petridish@3.1
 github_edit: gh-pages
 colors:
@@ -20,14 +20,14 @@ colors:
   banner: "#F5FCE2" # Lighter green
   footer: "#F5FCE2" # Lighter green
   background: "#F5FCE2" # Lighter green
-font_serif: false
+font_serif: true
 rounded_corners: true
 logo: /assets/images/ ALFAWetlands_Logo_Transparent.png
 
 # BUILD SETTINGS
-repository: ALFAwetlands/peatland-restoration
 markdown: kramdown
 plugins:
+  - jekyll-feed
   - jekyll-sitemap
 exclude:
   - README.md
@@ -38,18 +38,6 @@ exclude:
 # FRONTMATTER DEFAULTS
 defaults:
   - scope:
-      path: pages/nl
+      path: ""
     values:
-      lang: nl
-      permalink: /:basename/
-      background:
-        img: /assets/backgrounds/default.jpg
-        by: Yves Adams, VILDA
-  - scope:
-      path: pages/en
-    values:
-      lang: en
-      permalink: /en/:basename/
-      background:
-        img: /assets/backgrounds/default.jpg
-        by: Yves Adams, VILDA
+      layout: default

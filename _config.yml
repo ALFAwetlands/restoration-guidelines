@@ -1,6 +1,7 @@
 # SITE SETTINGS
 title: European Wetland Restoration
 author: ALFAwetlands
+baseurl: "/peatland-restoration"
 
 # SOCIAL PROFILES
 social:

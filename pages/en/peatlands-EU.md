@@ -1,11 +1,8 @@
 ---
-title: "Peatlands in the EU"
-description: Description that will appear below the title in the banner
+title: Peatlands in the EU
+description: What are peatlands? Why is it important to restore them?
 background: 
     img: /assets/backgrounds/93935_DeTeut_Zonhoven.jpg
-    by: Yves Adams, VILDA
-permalink: /
-toc: false
-comments: false # See posts
-published: false # See posts
+    by: Yves Adams, Vilda
+toc: true
 ---

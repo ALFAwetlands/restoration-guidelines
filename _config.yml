@@ -19,12 +19,12 @@ colors:
   banner: "#A4C3B2" # Muted teal
   footer: "#6B9080" # Jungle teal
   background: "#F6FFF8" # Mint Cream
-font_serif: true
+font_serif: false
 rounded_corners: true
 logo: /assets/images/ALFAWetlands_Logo_Transparent.png
 
 # BUILD SETTINGS
-repository: inbo/peatland-restoration
+repository: /peatland-restoration
 markdown: kramdown
 plugins:
   - jekyll-feed
@@ -34,22 +34,3 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - LICENSE
-
-# FRONTMATTER DEFAULTS
-defaults:
- - scope:
-      path: pages/nl
-    values:
-      lang: nl
-      permalink: /:basename/
-      background:
-        img: /assets/backgrounds/default.jpg
-        by: INBO
-  - scope:
-      path: pages/en
-    values:
-      lang: en
-      permalink: /en/:basename/
-      background:
-        img: /assets/backgrounds/default.jpg
-        by: INBO

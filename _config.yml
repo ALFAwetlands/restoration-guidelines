@@ -8,8 +8,6 @@ social:
   bluesky: https://bsky.app/profile/alfawetlands.bsky.social
   facebook: https://www.facebook.com/ALFAwetlands  
   linkedin: https://www.linkedin.com/company/alfawetlands/
-  youtube: https://www.youtube.com/channel/UCI8_mIMGWlQ-YQi1hsHEbTg
-  zenodo: https://zenodo.org/communities/alfawetlands/records?q=&l=list&p=1&s=10&sort=newest
 
 # THEME SETTINGS
 remote_theme: peterdesmet/petridish@3.1
@@ -18,13 +16,12 @@ colors:
   links: "#0F71B8"  # Blue
   banner: "#A4C3B2" # Muted teal
   footer: "#6B9080" # Jungle teal
-  background: "#F6FFF8" # Mint Cream
 font_serif: false
 rounded_corners: true
 logo: /assets/images/ALFAWetlands_Logo_Transparent.png
 
 # BUILD SETTINGS
-repository: /peatland-restoration
+repository: ALFAwetlands/peatland-restoration
 markdown: kramdown
 plugins:
   - jekyll-feed

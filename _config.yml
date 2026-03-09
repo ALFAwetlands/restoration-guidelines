@@ -31,3 +31,11 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - LICENSE
+
+# FRONTMATTER DEFAULTS
+defaults:
+  - scope:
+      path: pages/peatlands
+    values:
+      toc: true
+      permalink: /peatlands/:basename/

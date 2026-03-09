@@ -6,5 +6,5 @@ background:
   img: /assets/backgrounds/17744_Finland_YA.jpg
   by: Yves Adams, Vilda
 toc: true
-permalink: /en/
+permalink: /
 ---

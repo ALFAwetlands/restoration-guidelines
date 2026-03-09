@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Nature restoration guidelines
+title: Peatland restoration guidelines
 description: Practical restoration pathways for Europe's peatlands
 background: 
   img: /assets/backgrounds/17744_Finland_YA.jpg

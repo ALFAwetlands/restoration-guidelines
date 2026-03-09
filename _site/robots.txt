@@ -1,1 +1,0 @@
-Sitemap: http://localhost:4000/peatland-restoration/sitemap.xml

@@ -33,3 +33,7 @@ defaults:
     values:
       toc: true
       permalink: /peatlands/:basename/
+  - scope:
+      path: pages/about
+    values:
+      permalink: /:basename/

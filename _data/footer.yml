@@ -13,5 +13,4 @@ columns:
 # Small print license statement to add at the bottom of the footer. Can be Markdown
 # Will be prefixed by "© {{ site.author }}" if defined in _config.yml
 license: >
-  @ALFAwetlands
   \| Theme: [Petridish] (https://github.com/peterdesmet/petridish) with small modifications

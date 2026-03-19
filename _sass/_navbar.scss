@@ -1,6 +1,8 @@
 .navbar {
   background-color: #F6FFF8!important;
   border-bottom: 1px solid $gray-200;
+  padding-top: 0.25rem;    // ← reduce top space
+  padding-bottom: 0.25rem; // ← reduce bottom space
 
   .navbar-brand {
     font-weight: bold;
@@ -26,7 +28,7 @@
       background-color: #eaf4f4; // azure mist on hover
     }
   }
-  
+
   .navbar-toggler {
     font-size: 90%;
     padding: 10px;

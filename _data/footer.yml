@@ -11,7 +11,7 @@ columns:
         </a>
       </div>
   - links:
-    - text: Privacybeleid
+    - text: Privacy Policy
       href: /privacy/
 
 # Small print license statement to add at the bottom of the footer. Can be Markdown

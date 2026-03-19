@@ -2,12 +2,9 @@
   background-color: #F6FFF8!important;
   border-bottom: 1px solid $gray-200;
 
-  h1 {
-  color: #617c70;
-  }
-
   .navbar-brand {
     font-weight: bold;
+    color: #617c70;
     img {
       width: 60px;  // adjust to your preferred size
       height: auto;  // keeps the aspect ratio correct

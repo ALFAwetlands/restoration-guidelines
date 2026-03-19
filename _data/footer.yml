@@ -5,9 +5,9 @@
 columns:
   - description: |
       <div style="display:flex; align-items:center; gap:1rem;">
-        <img src="/assets/images/eu_logo_geel.jpg" alt="EU logo" style="height:60px;">
+        <img src="{{ '/assets/images/eu_logo_wit.jpg' | relative_url }}" alt="EU logo" style="height:60px;">
         <a href="https://www.alfawetlands.eu/">
-          <img src="/assets/images/logo_non_transparent.jpg" alt="ALFAwetlands logo" style="height:60px;">
+          <img src="{{ '/assets/images/logo_non_transparent.jpg' | relative_url }}" alt="ALFAwetlands logo" style="height:60px;">
         </a>
       </div>
   - links:

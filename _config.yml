@@ -2,7 +2,7 @@
 title: Peatland restoration guidelines
 author: ALFAwetlands
 baseurl: "/restoration-guidelines"
-edit_link: false
+github_edit: false
 
 # THEME SETTINGS
 remote_theme: peterdesmet/petridish@3.1

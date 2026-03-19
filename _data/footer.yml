@@ -4,9 +4,12 @@
 # Columns (the more you add, the narrower they will be)
 columns:
   - description: |
-      ![EU logo](/assets/images/eu_logo_wit.jpg){:.img-fluid}
-
-      [![ALFAwetlands logo](/assets/images/logo_non_transparant.jpg){:.img-fluid}](https://www.alfawetlands.eu/)
+      <div style="display:flex; align-items:center; gap:1rem;">
+        <img src="/assets/images/eu_logo_wit.jpg" alt="EU logo" style="height:60px;">
+        <a href="https://www.alfawetlands.eu/">
+          <img src="/assets/images/logo_non_transparant.jpg" alt="ALFAwetlands logo" style="height:60px;">
+        </a>
+      </div>
   - links:
     - text: Privacybeleid
       href: /privacy/

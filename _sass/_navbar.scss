@@ -1,6 +1,10 @@
 .navbar {
-  background-color: white!important;
+  background-color: #F6FFF8!important;
   border-bottom: 1px solid $gray-200;
+
+  h1 {
+  color: #617c70;
+  }
 
   .navbar-brand {
     font-weight: bold;

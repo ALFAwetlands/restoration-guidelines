@@ -49,7 +49,7 @@
 
     // Reduce font-size on smaller screens, except on homepage
     @include media-breakpoint-down(md) {
-      font-size: $header-h1 - 1;
+      font-size: 2 rem;
 
       &.home {
         font-size: $header-h1;

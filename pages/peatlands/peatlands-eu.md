@@ -68,4 +68,4 @@ types in an ordination based on the two most important environmental gradients.
 Wetness, or distance between vegetation surface and water table, varies along the 
 vertical axis, and the complex gradient with variation in pH, base saturation, and 
 nutrient status is depicted along the horizontal axis. Image adapted from Rydin & 
-Jeglum (2013).](/restoration-guidelines/assets/images/figure1.png)
+Jeglum (2013).]({{ '/assets/images/figure1.png' | relative_url }})

@@ -8,7 +8,7 @@ remote_theme: peterdesmet/petridish@3.1
 github_edit: false
 colors:
   links: "#0F71B8"  # Blue
-  banner: "#A4C3B2" # Muted teal
+  banner: "#6B9080" 
   footer: "#6B9080" # Jungle teal
 font_serif: false
 rounded_corners: true

@@ -1,8 +1,8 @@
 # SITE SETTINGS
 title: Peatland restoration guidelines
-author: ALFAwetlands
+author: Nature-Restoration
 baseurl: "/restoration-guidelines"
-url: "https://ALFAwetlands.github.io"
+url: "https://Nature-Restoration.github.io"
 
 # THEME SETTINGS
 remote_theme: peterdesmet/petridish@3.1
@@ -16,7 +16,7 @@ rounded_corners: true
 logo: /assets/images/created_logo.png
 
 # BUILD SETTINGS
-repository: ALFAwetlands/restoration-guidelines
+repository: NatureRestoration/restoration-guidelines
 markdown: kramdown
 plugins:
   - jekyll-feed
